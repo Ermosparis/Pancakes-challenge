@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff3db;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    letter-spacing:0.5px;
+}
+figure{
+    margin: 25px 5px;
+}
+img{
+    width: 100%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1{
+    margin: 10px 5px;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+h2{
+    color: red;
+    margin: 20px 0;
+}
+
+h3{
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+main{
+    margin: 5px 5px;
+}
+
+/* SPAN */
+
+.bleu{
+    font-weight: bold;
+    color: rgb(66, 131, 228);
+    text-decoration: underline;
+}
+
+.rouge{
+    color: red;
+}
+
+.rouge_bold{
+    color: red;
+    font-weight: bold;
+}
+
+/* ASTUCE */
+.astuce{
+    margin: 10px 0;
+    background-color: rgb(255, 206, 143);
+    font-style: italic;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(102, 100, 100);
+    padding: 1.1px;
+    text-align: center;
+}
+
+/* RESUME */
+
+.resume ul{
+    list-style: none;
+}
+.resume ul li{
+    margin: 10px 0;
+}
+
+
+/* PREPARATION */
+
+.preparation ul{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/* Instruction */
+
+.instructions ol{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.instructions p {
+    margin: 15px 0;
+}
